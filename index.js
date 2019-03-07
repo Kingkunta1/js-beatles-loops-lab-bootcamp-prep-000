@@ -10,6 +10,7 @@ function theBeatlesPlay(musicians, instruments){ // add solution here
   
   
 function johnLennonFacts(facts){
+
   var beat = []
   for (var i=0; i < facts.length; i++ ){
     beat.push(`${facts[i]}!!!`)
@@ -34,3 +35,11 @@ function iLoveTheBeatles(n){
     return love
 }
   
+=======
+   while(facts>0){
+    console.log(facts++)
+  }
+  return facts 
+}
+      
+>>>>>>> 8654510110eda1c9269ce207e5b22a0f589b1959
